@@ -12,28 +12,6 @@ The current MVP is frontend-only and stores progress in `localStorage`.
 - Manual TypeScript implementations for classroom/toy algorithms
 - Vitest unit tests
 
-## Setup
-
-```bash
-npm install
-npm run dev
-npm run test
-```
-
-Open the local Vite URL shown in the terminal.
-
-## Deploy to GitHub Pages
-
-This repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml`.
-
-To deploy:
-
-1. Push the project to a GitHub repository.
-2. In GitHub, open **Settings → Pages**.
-3. Set **Source** to **GitHub Actions**.
-4. Push to the `main` branch, or run the workflow manually from the **Actions** tab.
-
-The workflow installs dependencies, runs tests, builds the Vite app, and deploys `dist/` to GitHub Pages. It automatically sets Vite's `base` path to the repository name, so project URLs such as `https://username.github.io/cryptolab-ctf/` work correctly.
 
 ## MVP Features
 
